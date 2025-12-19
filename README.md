@@ -2,7 +2,7 @@
 
 For ML engineers who've hit the limits of tutorials. Battle-tested insights on training, debugging, and shipping models that actually work in the real world.
 
----
+## [Field Notes](field-notes/README.md)
 
 ## Series Overview
 
@@ -30,3 +30,4 @@ You'll get the most value from these posts if you:
 - Want to make better decisions faster, informed by battle-tested experience
 
 ---
+
