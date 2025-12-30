@@ -1,5 +1,7 @@
 # The Label Noise That Actually Kills Your Model
 
+![cover-image](./cover-images/2-label-noise.png)
+
 After debugging countless production models over 16 years, I've learned something counterintuitive: your training data doesn't have to be perfect. A model can handle up to 10% random label errors without significant degradation. Instead, invest your time perfecting your evaluation labels and rooting out any systematic labeling errors.
 
 Consider crack detection on power line cross arms; annotators will inevitably miss some cracks while labeling. These errors are survivable. What kills your model isn't randomly missing some cracks, it's systematically missing cracks in shadows, near metal hardware, or on weathered wood. That's the difference between noise your model can ignore and bias it will learn to emulate.
@@ -14,7 +16,7 @@ Recent research confirms this tolerance. ["On the Role of Label Noise in the Fea
 
 While your model can ignore random label noise during training, labeling errors in your validation and test sets will distort your decision metrics. These are the metrics used to control overfitting, select production models, and set performance expectations. Distorted metrics lead to incorrect decisions.
 
-The good news: evaluation sets are typically 10-20x smaller than training data. The time it takes to reduce labeling errors from 5% to near 0% in your evaluation data equals the time needed to reduce training set noise by just 0.5-1%. The math is simple: invest 3-5x more annotation time per sample in your evaluation data to ensure you are making optimal modelling decisions.
+The good news: evaluation sets are typically 10-20x smaller than training data. The time it takes to reduce labeling errors from 5% to near 0% in your evaluation data equals the time needed to reduce training set noise by just 0.5-1%. The math is simple: invest 3-5x more annotation time per sample in your evaluation data to ensure you are making optimal modeling decisions.
 
 ## The Real Killer: Systematic Labeling Patterns
 
