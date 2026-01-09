@@ -38,4 +38,4 @@ Before your next annotation sprint, do this: cluster your unlabeled data into 20
 
 ---
 
-[Back to Contents](README.md)
+[Back to Contents](../README.md#field-notes)

@@ -36,4 +36,4 @@ Set a reminder to check this after your next labeling batch. Your split should e
 
 ---
 
-[Back to Contents](README.md)
+[Back to Contents](../README.md#field-notes)
