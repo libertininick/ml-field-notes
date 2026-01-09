@@ -1,4 +1,7 @@
 # Which Samples Should You Label Next?
+
+![cover-image](./cover-images/3-what-to-label-next.png)
+
 You've got a backlog of 100,000 unlabeled datapoints but time and budget to annotate only 500 this sprint. Which ones should you pick?
 
 This isn't academic. For nearly all supervised learning tasks, collecting and labeling training data is your biggest cost; not model training itself. The human time investment to assign labels and review quality is immense. Supervised models require thousands if not millions of annotated samples to learn useful patterns. Even if data collection and annotation are cheap ($0.50 / sample) your annotation budget will dwarf your training bill. More importantly, data annotation takes significantly longer (weeks or months) than model training (hours or days) which is often the biggest bottleneck to model development cycles.
@@ -13,7 +16,7 @@ Imagine a model that detects if workers are wearing their hard hat in a heavy co
 Worse, this creates additional negative impacts:
 
 1. **Catastrophic forgetting:** Your model gets significantly worse in areas it was once very good at (e.g., it gets better at detecting partially obscured hard hats but forgets how to detect hard hats on workers directly in front of the camera).
-2. **Distribution drift:** Your training set stops looking like the real world your model will see in production (e.g., the model begins to expect that hard hats will usually be obscured when the reality is totally opposite).
+2. **Distribution drift:** Your training set stops looking like the data distribution your model will see in production (e.g., the model begins to expect that hard hats will usually be obscured when the reality is totally opposite).
 
 ## Why Diversity Alone Fails
 Sampling based on data diversity is always a safe bet. We want our model to generalize across all of our data rather than learning patterns that work for specific pockets. That said, if you pick the 500 most diverse samples for this annotation round, you might label a bunch of easy, well-separated examples your model already handles fine. You're burning annotation budget by not maximizing incremental learning.
