@@ -32,3 +32,7 @@ Think of it like studying for an exam. You want to practice problems you struggl
 ## Takeaway
 
 Before your next annotation sprint, do this: cluster your unlabeled data into 20-50 groups, calculate your model's uncertainty scores for each sample, then sample the top-N most uncertain from each cluster. You're guaranteeing diversity while maximizing learning signal per labeled sample.
+
+---
+
+[Back to Contents](README.md)
