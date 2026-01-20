@@ -1,5 +1,7 @@
 # Is Your New Model Actually Better?
 
+![cover-image](./cover-images/4-is-your-new-model-better.png)
+
 Your new model just came out of the oven and has a validation loss of 0.342. The old one had 0.351. Ship it?
 
 Most teams would say yes. Lower loss means better model, right? But that point comparison tells you almost nothing about whether your model is actually better. After making deployment decisions on hundreds of models, I've learned to ask a different question: what's the probability this model is meaningfully better?
@@ -51,3 +53,7 @@ Your prior lets you bring in outside context, including your cost of being wrong
 ## Takeaway
 
 You already have per-sample losses. Use them. Build the distribution of differences, set a meaningful threshold, and ask the right question: what's the probability this model is better by an amount that matters?
+
+---
+
+[Back to Contents](../README.md#field-notes)
