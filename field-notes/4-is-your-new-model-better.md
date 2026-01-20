@@ -4,7 +4,7 @@
 
 Your new model just came out of the oven and has a validation loss of 0.342. The old one had 0.351. Ship it?
 
-Most teams would say yes. Lower loss means better model, right? But that point comparison tells you almost nothing about whether your model is actually better. After making deployment decisions on hundreds of models, I've learned to ask a different question: what's the probability this model is meaningfully better?
+Most teams would say yes. Lower loss means a better model, right? But that point comparison tells you almost nothing about whether your model is actually better. After making deployment decisions on hundreds of models, I've learned to ask a different question: what's the probability this model is meaningfully better?
 
 ## Why Average Loss Deceives You
 
