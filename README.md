@@ -7,11 +7,11 @@ For ML engineers who've hit the limits of tutorials. Battle-tested insights on t
 1. [**Stop Using 80/20 Blindly**](field-notes/1-stop-using-80-20-blindly.md): That 80/20 train-validation split you're using? It's probably either wasting thousands of labeled samples or giving you metrics too noisy to trust—and the fix requires thinking in absolute sample counts, not percentages.
 2. [**The Label Noise That Actually Kills Your Model**](field-notes/2-label-noise.md): Perfect training labels are overrated; but perfect evaluation data is non-negotiable and systematic labeling bias can destroy your model. Here's a simple technique to root out these biases in under an hour.
 3. [**Which Samples Should You Label Next?**](field-notes/3-what-to-label-next.md): You're probably selecting the wrong samples to label—this two-step strategy shows you how to maximize model improvement per labeled example while avoiding catastrophic forgetting.
-4. [**Is Your New Model Actually Better?**](field-notes/4-is-your-new-model-better.md): Your new model has better validation loss—ship it? That single number might be hiding a coin flip decision. Instead, start asking "what's the probability this new model is better by an amount that matters?"
+4. [**Is Your New Model Actually Better?**](field-notes/4-is-your-new-model-better.md): Your new model has better validation loss—ship it? That single number might be hiding a coin flip decision. Instead, start asking "what's the probability this new model is better by an amount that matters?
 
 ## Series Overview
 
-Your model hits 95% accuracy on the validation set, then crashes to 30% in production. Your active learning loop labels the same examples repeatedly. Your "balanced" dataset still fails on minority classes that actually matter. **ML Field Notes** tackles these real-world problems with battle-tested solutions from 16+ years of applied machine learning and computer vision experience across the financial, defense, and critical infrastructure industries.
+Your model hits 95% accuracy on the validation set, then crashes to 30% in production. Your active learning loop labels the same examples repeatedly. Your "balanced" dataset still fails on minority classes that actually matter. **ML Field Notes** tackles these real-world problems with battle-tested solutions from 17 years of applied machine learning and computer vision experience across the financial, defense, and critical infrastructure industries.
 
 Each post dissects one specific problem with a practical solution you can apply immediately; the kind of knowledge that only comes from debugging failures late into the night, optimizing models under production deadlines, and navigating the messy reality where clean datasets don't exist.
 
