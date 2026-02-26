@@ -1,8 +1,10 @@
 # Using Synthetic Training Data Without Sabotaging Your Model
 
-Need more examples of a minority class, rare edge cases, or just greater diversity across your entire dataset? Today's generative models make it easy to synthesize realistic training samples at scale.
+![cover-image](./cover-images/5-how-to-use-synthetic-data.png)
 
-It's tempting to think you can generate your way out of any data shortage. But synthetic data is a supplement, not a replacement for real data. Knowing when to use it, and where it belongs across your train, validation, and test splits, is critical.
+Today's generative models make it easy to synthesize realistic training samples at scale. Given this, it's tempting to think you can generate your way out of any data shortage. For example, if you need more examples of a minority class or a rare edge case, why not just generate a few thousand samples to fill in your dataset gaps?
+
+After 17 years of building models on scarce and imbalanced datasets, I've learned that synthetic data is a supplement, not a replacement for real data. Knowing when to use it, and where it belongs across your train, validation, and test splits, is critical.
 
 ## Real Data First
 
@@ -12,7 +14,7 @@ That said, synthetic data is particularly effective when real examples are scarc
 
 In short, generate only what you can't collect.
 
-## Keep Synthetic Data Out of Validation/Test Split
+## Keep Synthetic Data Out of Validation/Test Splits
 
 Synthetic data belongs in your training set only. Your validation and test sets must remain 100% real.
 

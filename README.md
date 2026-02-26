@@ -8,6 +8,7 @@ For ML engineers who've hit the limits of tutorials. Battle-tested insights on t
 2. [**The Label Noise That Actually Kills Your Model**](field-notes/2-label-noise.md): Perfect training labels are overrated; but perfect evaluation data is non-negotiable and systematic labeling bias can destroy your model. Here's a simple technique to root out these biases in under an hour.
 3. [**Which Samples Should You Label Next?**](field-notes/3-what-to-label-next.md): You're probably selecting the wrong samples to label—this two-step strategy shows you how to maximize model improvement per labeled example while avoiding catastrophic forgetting.
 4. [**Is Your New Model Actually Better?**](field-notes/4-is-your-new-model-better.md): Your new model has better validation loss—ship it? That single number might be hiding a coin flip decision. Instead, start asking "what's the probability this new model is better by an amount that matters?
+5. [**Using Synthetic Training Data Without Sabotaging Your Model**](field-notes/5-how-to-use-synthetic-data.md): Generating synthetic data to fill dataset gaps is tempting, but putting it in the wrong split will silently poison your metrics. Here's the discipline required to use synthetic samples without fooling yourself into shipping a worse model.
 
 ## Series Overview
 
